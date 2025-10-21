@@ -1,0 +1,9 @@
+version: 2
+sources:
+  - name: raw_data
+    catalog: workspace 
+    schema: data 
+    
+    tables:
+      - name: accepted_clean_delta 
+      - name: rejected_clean_delta
